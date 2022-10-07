@@ -1,0 +1,21 @@
+@import "../../../../global.scss";
+
+a{
+    text-decoration: none;
+}
+.cartWidget{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    span{
+        color: $mainColor;
+        font-weight: 600;
+    }
+    svg{
+        fill: $mainColor;
+        height: 24px;
+        width: 24px;
+    }
+}
