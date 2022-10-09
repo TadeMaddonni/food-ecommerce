@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { CartContext } from "../../../../context/cartContext/CartContext";
 import "./cartWidget.scss";
 
 const CartWidget = () => {
+    const Cart = useContext(CartContext);
     return (
         <Link to="/cart">
             <div className="cartWidget">
-                <span></span>
+                {Cart.cartList.length > 0 && <span>{Cart.totalItems}</span>}
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"

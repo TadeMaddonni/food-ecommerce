@@ -4,6 +4,7 @@ const menuData = [
         name: "Mediterranean  Salad",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/x8xwZrwT/big-Burger.png",
     },
     {
@@ -11,13 +12,15 @@ const menuData = [
         name: "Summer Asian Slaw",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/4yq8tJCt/bowl1.png",
     },
     {
         id: 3,
-        name: "Burger",
+        name: "Salad ",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/nh7W4QhL/bowl2.png",
     },
     {
@@ -25,6 +28,7 @@ const menuData = [
         name: "white sauce pasta",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/KYPd236W/bowl3.png",
     },
     {
@@ -32,6 +36,7 @@ const menuData = [
         name: "Butterfly pasta",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/50fDNN12/bowl4.png",
     },
     {
@@ -39,6 +44,7 @@ const menuData = [
         name: "Tooty fruity bowl",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/sXf0C69B/fruits.png",
     },
     {
@@ -46,6 +52,7 @@ const menuData = [
         name: "Granola cereal bowl",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/Qdp69Gf9/granola-cereal-bowl.png",
     },
     {
@@ -53,6 +60,7 @@ const menuData = [
         name: "Palm bowl",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/SNn3KP0C/kisspng-aa-na-tigela-smoothie-aa-palm-bowl-apple-j-goji-berry-5b306ffe7baf07-9992682215299010545066.png",
     },
     {
@@ -60,6 +68,7 @@ const menuData = [
         name: "Tigela smoothie",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/3rtQNpk5/kisspng-aa-na-tigela-smoothie-breakfast-juice-health-s-acai-bowl-5b11d2604db908-66956303152789462431.png",
     },
     {
@@ -67,6 +76,7 @@ const menuData = [
         name: "Breakfast cereal",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/Sx0TxNfb/kisspng-breakfast-cereal-pizza-muesli-meze-vegetarian-cuis-granola-5ac48d852aeb69-189189231522830725.png",
     },
     {
@@ -74,6 +84,7 @@ const menuData = [
         name: "Cuisine of hawaii",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/cCHjw9vq/kisspng-cuisine-of-hawaii-l-l-hawaiian-barbecue-shrimp-gam-frozen-chicken-5b1e62f3a9e035-27662824152.png",
     },
     {
@@ -81,6 +92,7 @@ const menuData = [
         name: "Fried chicken",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/cCHjw9vq/kisspng-cuisine-of-hawaii-l-l-hawaiian-barbecue-shrimp-gam-frozen-chicken-5b1e62f3a9e035-27662824152.png",
     },
     {
@@ -88,6 +100,7 @@ const menuData = [
         name: "Greek salad",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/QCyzbQ7F/kisspng-fried-chicken-lemon-chicken-chicken-meat-fine-dining-chicken-meat-5a940a1b75aa22-82120543151.png",
     },
     {
@@ -95,6 +108,7 @@ const menuData = [
         name: "Hamburger",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/v8qCbsKG/kisspng-hamburger-street-food-seafood-fast-food-delicious-food-5a75083cceaf41-2676743415176192608466.png",
     },
     {
@@ -102,6 +116,7 @@ const menuData = [
         name: "Israeli salad",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/ZqHVHPtJ/kisspng-israeli-salad-european-cuisine.png",
     },
     {
@@ -109,6 +124,7 @@ const menuData = [
         name: "Pizza Pasta",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/mry6qfMf/kisspng-italian-cuisine-pizza-pasta-food-plate-healthy-food-5abb864701e2b7-3892346415222390470077.png",
     },
     {
@@ -116,6 +132,7 @@ const menuData = [
         name: "Pizza",
         info: "spicey with garlic and then deep fried to crispy perfection",
         price: 24,
+        quantity:1,
         img: "https://i.postimg.cc/R04gwsYP/pizza.png",
     },
 ];

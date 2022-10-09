@@ -1,0 +1,12 @@
+.itemDetailContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .itemDetail{
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+}

@@ -7,7 +7,8 @@ import menuData from "./utils/data/data";
 import Contact from "./pages/contact/Contact";
 import Menu from "./pages/menu/Menu";
 import Cart from "./pages/cart/Cart";
-
+import CartContextProvider from "./context/cartContext/CartContext";
+import ItemDetail from "./pages/itemDetail/ItemDetail";
 function App() {
     const elements = menuData.map((item) => {
         return (
@@ -20,17 +21,20 @@ function App() {
         );
     });
     return (
-        <BrowserRouter>
-            <Topbar />
-            <Routes>
-                <Route index element={<Home />} />
-                <Route path="/" element={<Home />} />
-                <Route path="/contact" element={<Contact />} />
-                <Route path="/menu" element={<Menu />} />
-                <Route path="/cart" element={<Cart />} />
-            </Routes>
-            <Footer />
-        </BrowserRouter>
+        <CartContextProvider>
+            <BrowserRouter>
+                <Topbar />
+                <Routes>
+                    <Route index element={<Home />} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/menu" element={<Menu />} />
+                    <Route path="/cart" element={<Cart />} />
+                    <Route path="/item/:id" element={<ItemDetail />}/>
+                </Routes>
+                <Footer />
+            </BrowserRouter>
+        </CartContextProvider>
     );
 }
 

@@ -1,0 +1,13 @@
+@import "../../../../global.scss";
+
+.itemCount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: $mainColor;
+    svg{
+        cursor: pointer;
+    }
+
+}

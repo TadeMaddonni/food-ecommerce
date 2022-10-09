@@ -1,12 +1,17 @@
 import React from "react";
-import MenuItem from "../item/Item";
+import menuData from "../../../../utils/data/data";
+import Item from "../item/Item";
+import './itemList.scss'
 
 const ItemList = () => {
+    const menuItems = menuData.map((item) => {
+        return <Item key={item.id} id={item.id} name={item.name} img={item.img} price={item.price} info={item.info} />;
+    });
+
     return (
-        <div>
-            <div>
-                <MenuItem />
-                Hello
+        <div className="menuListContainer">
+            <div className="menuList">
+                {menuItems}
             </div>
         </div>
     );
