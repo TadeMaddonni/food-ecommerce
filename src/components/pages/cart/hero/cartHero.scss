@@ -1,0 +1,27 @@
+@import "../../../../global.scss";
+
+.cartHeroContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-block: 40px;
+    .cartHero {
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+
+        h1 {
+            color: $mainColor;
+            font-weight: 800;
+            font-size: 50px;
+        }
+        span {
+            color: $secondaryColor;
+            width: 300px;
+            text-align: center;
+            font-size: 40px;
+        }
+    }
+}
