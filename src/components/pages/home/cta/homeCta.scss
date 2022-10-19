@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
 
-    .homeCta{
+    .homeCta {
         padding-block: 40px;
         width: 100%;
         max-width: 1200px;
@@ -12,12 +12,12 @@
         flex-direction: column;
         gap: 40px;
 
-        h3{
+        h3 {
             font-size: 50px;
             font-weight: 400;
         }
 
-        button{
+        button {
             width: fit-content;
             padding: 10px 20px;
             display: flex;
@@ -31,7 +31,21 @@
             font-size: 20px;
             font-weight: 300;
             cursor: pointer;
+        }
+    }
+}
 
+@media (max-width: 500px) {
+    .homeCtaContainer {
+        padding-inline: 20px;
+        .homeCta {
+            justify-content: center;
+            align-items: center;
+            h3 {
+                text-align: center;
+                @include mobileSubtitles;
+                text-align: center;
+            }
         }
     }
 }

@@ -5,6 +5,24 @@ $secondaryColor: #000000;
 $thirdColor: #fff;
 
 /*  Fonts  */
-$mainFont: "Josefin Sans", sans-serif; ;
+$mainFont: "Josefin Sans", sans-serif;
 
+/* Sizes */
+$mobileTitle: 40px;
+$mobileText: 16px;
+$mobileSubtitle: 40px;
 
+$tabletTitle: 35px;
+
+@mixin mobileTitles {
+    font-size: $mobileTitle;
+    line-height: $mobileTitle + 10px;
+}
+@mixin mobileSubtitles {
+    font-size: $mobileSubtitle;
+    line-height: $mobileSubtitle + 10px;
+}
+@mixin mobileText {
+    font-size: $mobileText;
+    line-height: $mobileText + 4px;
+}

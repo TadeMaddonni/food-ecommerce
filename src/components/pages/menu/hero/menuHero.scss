@@ -25,3 +25,26 @@
         }
     }
 }
+
+@media (max-width: 508px) {
+    .menuHeroContainer {
+        width: 100%;
+        display: none;
+        display: flex;
+        .menuHero {
+            width: 100%;
+            max-width: 1200px;
+            flex-direction: column;
+            h1 {
+                text-align: center;
+                @include mobileTitles;
+            }
+            span {
+                width: 100%;
+                text-align: center;
+
+                @include mobileSubtitles;
+            }
+        }
+    }
+}

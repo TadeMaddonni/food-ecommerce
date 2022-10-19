@@ -32,10 +32,47 @@
                 text-align: left;
             }
         }
-        .right{
+        .right {
             width: 55%;
-            img{
+            img {
                 object-fit: contain;
+            }
+        }
+    }
+}
+
+@media (max-width: 508px) {
+    .homeHeroContainer {
+        width: 100%;
+        display: flex;
+        .homeHero {
+            width: 100%;
+            max-width: 1200px;
+            flex-direction: column;
+            .left {
+                margin-top: 40px;
+                width: 100%;
+                flex-direction: column;
+                gap: 15px;
+                align-items: center;
+                justify-content: center;
+                h2 {
+                    @include mobileSubtitles
+                }
+                h1 {
+                    @include mobileTitles
+                }
+                span {
+                    font-size: 20px;
+                    text-align: left;
+                }
+            }
+            .right {
+                width: 55%;
+                img {
+                    width: 100%;
+                    object-fit: contain;
+                }
             }
         }
     }

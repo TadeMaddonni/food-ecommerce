@@ -23,21 +23,33 @@
             justify-content: center;
             align-items: center;
 
-            svg{
+            svg {
                 width: 40px;
                 height: 40px;
-                fill:$thirdColor;
+                fill: $thirdColor;
             }
 
-            span{
+            span {
                 color: $thirdColor;
                 font-size: 17px;
                 font-weight: 400;
 
-                &.bold{
+                &.bold {
                     font-weight: 800;
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .homeBannerContainer {
+        height: fit-content;
+        padding-block: 50px;
+
+        .homeBanner {
+            flex-direction: column;
+            gap: 20px;
         }
     }
 }
