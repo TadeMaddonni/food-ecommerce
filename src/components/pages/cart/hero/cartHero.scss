@@ -25,3 +25,26 @@
         }
     }
 }
+
+@media (max-width: 508px) {
+    .cartHeroContainer {
+        width: 100%;
+        display: none;
+        display: flex;
+        .cartHero {
+            width: 100%;
+            max-width: 1200px;
+            flex-direction: column;
+            h1 {
+                text-align: center;
+                @include mobileTitles;
+            }
+            span {
+                width: 100%;
+                text-align: center;
+
+                @include mobileSubtitles;
+            }
+        }
+    }
+}

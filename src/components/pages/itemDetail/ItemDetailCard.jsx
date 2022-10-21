@@ -29,7 +29,7 @@ const ItemDetailCard = ({ item }) => {
                 <div className="right">
                     <h3>{item.name}</h3>
                     <p>{item.info}</p>
-                    <div>
+                    <div className="bottomRight">
                         <span>${item.price}</span>
 
                         <ItemCount
